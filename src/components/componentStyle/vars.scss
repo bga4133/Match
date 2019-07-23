@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+// mixins
+@mixin links {
+    text-decoration: none;
+    outline:none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+@mixin flex{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+// vars
+$main-color:#e6558e;
+$fontMatch:#3d6bcd;
+$logInFont:#ffd054;
+$whiteColor:#ffff;
+$firts-font:'Poppins', sans-serif;
+$second-font:'Roboto', sans-serif;
+$third-font:'Open Sans', sans-serif;
+$fourth-font:'Nunito', sans-serif;
+// SignUp Vars
+$registrerBackground:#fbfbfb;
+// matchColors
+$backgroundMatch:#f6f8fc;
+$filterColor1:#5c1cc5;
+$filterColor2:#63d9c6;
+$filterColor3:#e06ca9;
+$filterColor4:#ebc829;
+$filterColor5:#2038df;
+$buttonFather:#eff7f7;
+.flexCenter{
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+
+body{
+    width: 100%;
+}

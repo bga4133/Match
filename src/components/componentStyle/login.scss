@@ -1,0 +1,125 @@
+@import "../componentStyle/vars";
+
+/* login Styles */
+.loginContainer{
+    font-family: $main-color;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('../../src/images/login.JPG');
+}
+.firtsTittleLogin{
+    font-family:$firts-font;
+    font-weight: 900;
+    margin-top: 6vh;
+    width: 100%;
+}
+.boldFont{
+    text-align: center;
+    color:$fontMatch;
+    margin-left: 3%;
+}
+.fatherTextLogin{
+    width: 82%;
+    text-align: left;
+    p{
+        font-family: $firts-font;
+        font-size: 16px;
+        margin-bottom: 8vh;
+    }
+}
+/* form style */
+.cardLogin{
+    width: 80%;
+    height: 52vh;
+    background-color: $main-color;
+    padding-left:8%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 8%;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 20%;
+    -webkit-box-shadow: 0 14px 28px rgba(226, 215, 237, 1), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 14px 28px rgba(226, 215, 237, 1), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 14px 28px rgba(226, 215, 237, 1), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 14px 28px rgba(226, 215, 237, 1), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 14px 28px rgba(226, 215, 237, 1), 0 10px 10px rgba(0, 0, 0, 0.22);
+    h1{
+        font-family: $firts-font;
+        color:$logInFont;
+        text-align: left;
+    }
+}
+.formLogin{
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: auto;
+}
+.fatherIpuntLogin,.fatherIpuntLogin input{
+    width: 95%;
+    font-family:$firts-font;
+    font-size: 18px;
+    height: 7vh;
+    margin-bottom: 3vh;
+    color:$whiteColor;
+    input{
+        background: none;
+        border:0px;
+        border-bottom: 2px solid $whiteColor;
+        color:white;
+    }
+}
+/* placeholder color */
+::placeholder { 
+    color:$whiteColor;
+}
+.fatherIpuntLogin input:active,.fatherIpuntLogin input:focus{
+    text-decoration: none;
+    outline: none;
+}
+.fatherButtonLogin{
+    width: 90%;
+    height: auto;
+    margin-top: 2vh;
+    button{
+        background: $whiteColor;
+        font-family: $firts-font;
+        width: 80%;
+        font-weight: 900;
+        border: 0px;
+        font-size: 18px;
+        border-radius: 30px;
+        height: 8vh;
+    }
+}
+.joinNowLetter a,.forgotPassword{
+    color:$main-color;
+    @include links;
+    font-family:$firts-font;
+}
+.contentJoinNow{
+    margin-top:4vh;
+}
+/* profilePictureLogin */
+.profilePicture{
+    background-color:$main-color;
+    width: 130px;
+    position: absolute;
+    height: 130px;
+    background-image: url('../../src/images/perfil.jpg');
+    background-position:  center;
+    background-size: cover;
+    margin-top: -22vh;
+    margin-left: 21%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
